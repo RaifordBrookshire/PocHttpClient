@@ -1,0 +1,11 @@
+In C# .NET 7.0, you have several options for calling an HTTP endpoint:
+
+HttpClient class: This is the recommended way to send HTTP requests and receive responses in C#. It is part of the System.Net.Http namespace and provides a modern, easy-to-use API for working with HTTP.
+
+WebClient class: This is a legacy class that is also part of the System.Net namespace. It is simpler to use than HttpClient, but has less functionality.
+
+WebRequest and WebResponse classes: These classes provide a low-level API for working with HTTP and are also part of the System.Net namespace. They are more complex to use than the other options, but provide more control over the underlying request and response.
+
+HttpWebRequest and HttpWebResponse classes: These classes are also part of the System.Net namespace and provide a way to interact with HTTP resources using the request/response model.
+
+Third party libraries like RestSharp, Flurl etc.
